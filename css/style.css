@@ -1,0 +1,50 @@
+
+
+
+[class^="container"]{
+   background-color: rgb(66, 211, 222);
+   height: 100%;
+}
+
+[class^="col"]{
+   border: 1px solid;
+   height: 100%;
+}
+
+[class^="row"]{
+   border: 1px solid;
+   height: 100%;
+}
+
+
+.debugH-1{
+   height: 100px;
+}
+
+.debugH-2{
+   height: 200px;
+}
+
+.debugH-3{
+   height: 300px;
+}
+
+.debugH-4{
+   height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+/* INIZIO HEADER */
+
+
+
+
+
