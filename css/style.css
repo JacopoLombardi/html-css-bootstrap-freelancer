@@ -50,8 +50,9 @@ body{
 
 
 
-.JL_container{
+.custom_container{
    width: 80%;
+   max-width: 1150px;
 }
 
 
@@ -75,6 +76,7 @@ a{
 }
 
 :root{
+   --bg-lightgreen: rgb(26, 188, 156);
    --blue_navy: rgb(44, 62, 80);
 }
 
@@ -109,7 +111,7 @@ margin: 0;
 
 /* JUMBOTRON */
 .jumbotron{
-   background-color: rgb(26, 188, 156);
+   background-color: var(--bg-lightgreen);
 }
 
 
@@ -117,8 +119,10 @@ margin: 0;
 
 
 
-
-
+/* ABOUT */
+.about{
+   background-color: var(--bg-lightgreen);
+}
 
 
 
