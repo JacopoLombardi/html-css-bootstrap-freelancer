@@ -1,14 +1,14 @@
-
+body{
+   font-family: 'Helvetica Neue', sans-serif;                                       
+}
 
 
 [class^="container"]{
-   background-color: rgb(66, 211, 222);
-   height: 100%;
+   height: auto;
 }
 
 [class^="col"]{
    border: 1px solid;
-   background-color: rgb(235, 154, 154);
 }
 
 [class^="row"]{
@@ -44,7 +44,145 @@
 
 
 
+.fs-7{
+   font-size: 13px;
+}
+
+
+
+.JL_container{
+   width: 80%;
+}
+
+
+
+ul{
+   list-style: none;
+}
+
+a{
+   color: white;
+   text-decoration: none;
+}
+
+
+.color_lightgreen{
+   color: rgb(26, 188, 156);
+}
+
+.color_bluenavy{
+   color: rgb(44, 62, 80);
+}
+
+:root{
+   --blue_navy: rgb(44, 62, 80);
+}
+
+
+
+
+
+
 /* INIZIO HEADER */
+
+/* MENU_FIXED */
+.menu_fixed{
+   height: 90px;
+   background-color: rgb(44, 62, 80);
+}
+
+.menu_fixed .hamburger{
+   padding: 5px 8px;
+   color: grey;
+   border: 1px solid grey;
+   border-radius: 6px;
+   display: none;
+}
+
+.menu_fixed ul{
+margin: 0;
+}
+
+.menu_fixed ul li{
+   margin: 0 20px;
+}
+
+/* JUMBOTRON */
+.jumbotron{
+   background-color: rgb(26, 188, 156);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT_ME */
+.contact_me .form{
+   border: none;
+   border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.contact_me input::placeholder,
+.contact_me textarea::placeholder{
+   color: var(--blue_navy);
+   opacity: 1;
+}
+
+.contact_me input,
+.contact_me textarea{
+   padding-bottom: 4px;
+   padding: 10px 0;
+}
+
+.contact_me .btn.submit{
+   width: 80px;
+   color: white;
+   background-color: rgb(26, 188, 156);
+}
+
+
+
+
+/* INIZIO FOOTER */
+
+/* FOOTER_UP */
+.footer_up{
+   background-color: rgb(58, 84, 109);
+}
+
+.footer_up .icon div{
+   width: 40px;
+   aspect-ratio: 1;
+   border: 1px solid white;
+   margin: 5px;
+   border-radius: 50%;
+}
+
+
+/* FOOTER_DOWN */
+.footer_down{
+   background-color: rgb(44, 62, 80);
+}
+
+
+
+
+
+
 
 
 
