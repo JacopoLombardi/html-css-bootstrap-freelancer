@@ -1,63 +1,31 @@
-body{
-   font-family: 'Helvetica Neue', sans-serif;                                       
-}
 
-
+/* DEBUG */
 [class^="container"]{
    height: auto;
 }
 
 [class^="col"]{
-   border: 1px solid;
-}
-
-[class^="row"]{
-
-   height: 100%;
+   
 }
 
 
-.debugH-1{
-   height: 100px;
+/* UTILITY */
+body{
+   font-family: 'Helvetica Neue', sans-serif;                                       
 }
-
-.debugH-2{
-   height: 200px;
-}
-
-.debugH-3{
-   height: 300px;
-}
-
-.debugH-4{
-   height: 500px;
-}
-
-.debugH-5{
-   height: 700px;
-}
-
-
-
-img{
-   max-width: 100%;
-}
-
-
-
-
-.fs-7{
-   font-size: 13px;
-}
-
-
 
 .custom_container{
    width: 80%;
    max-width: 1150px;
 }
 
+img{
+   max-width: 100%;
+}
 
+.fs-7{
+   font-size: 13px;
+}
 
 ul{
    list-style: none;
@@ -67,7 +35,6 @@ a{
    color: white;
    text-decoration: none;
 }
-
 
 .color_lightgreen{
    color: rgb(26, 188, 156);
@@ -154,6 +121,11 @@ a{
    padding: 10px 0;
 }
 
+.contact_me input:focus,
+.contact_me textarea:focus{
+   outline: none;
+}
+
 .contact_me textarea{
    max-height: 200px;
 }
@@ -164,6 +136,9 @@ a{
    background-color: rgb(26, 188, 156);
 }
 
+.contact_me .btn.submit:hover{
+   background-color: rgb(22, 173, 143);
+}
 
 
 /* INIZIO FOOTER */
@@ -210,7 +185,32 @@ a{
       display: none;
    }
 
+
+
+   /* DA REVISIONARE NON FUNZIONA */
+   h1{
+      font-size: 26px !important;
+   }
+
+   h2{
+      font-size: 60px !important;
+   }
+
+   h3{
+      font-size: 50px!important;
+   }
+
+   h3{
+      font-size: 40px!important;
+   }
+
+   .p_sm{
+      font-size: 23px !important;
+   }
  
+
+
+
 }
 
 
