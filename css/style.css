@@ -39,7 +39,9 @@ body{
 
 
 
-
+img{
+   max-width: 100%;
+}
 
 
 
@@ -116,12 +118,9 @@ margin: 0;
 
 
 
-
-
-
-/* ABOUT */
-.about{
-   background-color: var(--bg-lightgreen);
+/* PORTFOLIO */
+.portfolio img{
+   border-radius: 10px;
 }
 
 
@@ -131,6 +130,15 @@ margin: 0;
 
 
 
+
+
+
+
+
+/* ABOUT */
+.about{
+   background-color: var(--bg-lightgreen);
+}
 
 
 
@@ -157,7 +165,6 @@ margin: 0;
    color: white;
    background-color: rgb(26, 188, 156);
 }
-
 
 
 
