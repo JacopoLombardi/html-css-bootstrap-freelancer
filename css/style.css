@@ -12,7 +12,7 @@ body{
 }
 
 [class^="row"]{
-   border: 1px solid;
+
    height: 100%;
 }
 
@@ -86,7 +86,6 @@ a{
 
 
 
-
 /* INIZIO HEADER */
 
 /* MENU_FIXED */
@@ -100,22 +99,29 @@ a{
    color: grey;
    border: 1px solid grey;
    border-radius: 6px;
-   display: none;
 }
 
 .menu_fixed ul{
-margin: 0;
+   margin: 0;
+}
+
+.menu_fixed ul li{
+   display: none;
 }
 
 .menu_fixed ul li{
    margin: 0 20px;
 }
 
+
 /* JUMBOTRON */
 .jumbotron{
    background-color: var(--bg-lightgreen);
 }
 
+.jumbotron img{
+   width: 50%;
+}
 
 
 /* PORTFOLIO */
@@ -124,22 +130,10 @@ margin: 0;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* ABOUT */
 .about{
    background-color: var(--bg-lightgreen);
 }
-
 
 
 /* CONTACT_ME */
@@ -158,6 +152,10 @@ margin: 0;
 .contact_me textarea{
    padding-bottom: 4px;
    padding: 10px 0;
+}
+
+.contact_me textarea{
+   max-height: 200px;
 }
 
 .contact_me .btn.submit{
@@ -196,6 +194,23 @@ margin: 0;
 
 
 
+/* ----------
+ MEDIA-QUERY
+----------- */
 
+@media(min-width: 992px){
+
+   /* MENU_FIXED */
+
+   .menu_fixed ul li{
+      display: block;
+   }
+
+   .menu_fixed .hamburger{
+      display: none;
+   }
+
+ 
+}
 
 
