@@ -10,6 +10,24 @@
 } */
 
 
+
+
+/* UPGRADE UTILITY DI BOOTSTRAP */
+.fs-0{
+   font-size: 30px;
+}
+
+.fs-7{
+   font-size: 15px;
+}
+
+.fs-8{
+   font-size: 13px;
+}
+
+
+
+
 /* UTILITY */
 body{
    font-family: 'Helvetica Neue', sans-serif;                                       
@@ -22,10 +40,6 @@ body{
 
 img{
    max-width: 100%;
-}
-
-.fs-7{
-   font-size: 13px;
 }
 
 ul{
@@ -44,6 +58,8 @@ a{
 .color_bluenavy{
    color: rgb(44, 62, 80);
 }
+
+
 
 
 /* CUSTOM PROPERTIES */
@@ -84,6 +100,7 @@ a{
 /* MENU_FIXED */
 .menu_fixed{
    background-color: rgb(44, 62, 80);
+   width: 100%;
 }
 
 .nav-link{
@@ -94,11 +111,16 @@ a{
    width: 100px;
 }
 
+.nav-link:hover{
+   text-decoration: underline;
+}
+
 
 
 /* JUMBOTRON */
 .jumbotron{
    background-color: var(--bg-lightgreen);
+   padding: 160px 0 50px 0;
 }
 
 .jumbotron img{
@@ -192,37 +214,28 @@ a{
 @media(min-width: 992px){
 
    /* MENU_FIXED */
-
    .nav-item{
       justify-content: center;
    }
 
 
 
-   /* DA REVISIONARE NON FUNZIONA */
-   h1{
-      font-size: 26px !important;
+   /* AUMENTO DEL FONT-SIZE */
+   .logo_text_upper_992{
+      font-size: 30px !important;
    }
 
-   h2{
-      font-size: 60px !important;
+   .h1_upper_992{
+      font-size: 40px !important;
    }
 
-   h3{
-      font-size: 50px!important;
+   .h2_upper_992{
+      font-size: 35px !important;
    }
 
-   h3{
-      font-size: 40px!important;
+   .p_sm_upper_992{
+      font-size: 21px !important;
    }
-
-   .p_sm{
-      font-size: 23px !important;
-   }
- 
-
-
-
 }
 
 
