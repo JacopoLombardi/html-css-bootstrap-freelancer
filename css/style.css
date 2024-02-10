@@ -4,11 +4,10 @@
    height: auto;
 }
 
-
+/* 
 [class^="col"]{
   border: 1px solid;
-}
-
+} */
 
 
 /* UTILITY */
@@ -46,6 +45,8 @@ a{
    color: rgb(44, 62, 80);
 }
 
+
+/* CUSTOM PROPERTIES */
 :root{
    --bg-lightgreen: rgb(26, 188, 156);
    --blue_navy: rgb(44, 62, 80);
@@ -82,28 +83,17 @@ a{
 
 /* MENU_FIXED */
 .menu_fixed{
-   height: 90px;
    background-color: rgb(44, 62, 80);
 }
 
-.menu_fixed .hamburger{
-   padding: 5px 8px;
-   color: grey;
-   border: 1px solid grey;
-   border-radius: 6px;
+.nav-link{
+   color: white;
 }
 
-.menu_fixed ul{
-   margin: 0;
+.nav-item{
+   width: 100px;
 }
 
-.menu_fixed ul li{
-   display: none;
-}
-
-.menu_fixed ul li{
-   margin: 0 20px;
-}
 
 
 /* JUMBOTRON */
@@ -198,16 +188,13 @@ a{
  MEDIA-QUERY
 ----------- */
 
+
 @media(min-width: 992px){
 
    /* MENU_FIXED */
 
-   .menu_fixed ul li{
-      display: block;
-   }
-
-   .menu_fixed .hamburger{
-      display: none;
+   .nav-item{
+      justify-content: center;
    }
 
 
