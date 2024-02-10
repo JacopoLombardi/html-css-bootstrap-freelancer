@@ -4,9 +4,11 @@
    height: auto;
 }
 
+
 [class^="col"]{
-   
+  border: 1px solid;
 }
+
 
 
 /* UTILITY */
@@ -48,6 +50,29 @@ a{
    --bg-lightgreen: rgb(26, 188, 156);
    --blue_navy: rgb(44, 62, 80);
 }
+
+
+
+
+/* UTILITY  ROW WITH STAR */
+.box_row{
+   width: 20%;
+}
+
+._row{
+   border: 2px solid black;
+   border-radius: 5%;
+   opacity: 1;
+}
+
+._white{
+   border-color: white;
+}
+
+._bluenavy{
+   border-color: var(--blue_navy);
+}
+
 
 
 
