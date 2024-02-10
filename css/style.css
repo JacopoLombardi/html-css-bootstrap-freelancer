@@ -117,6 +117,7 @@ a{
 }
 
 
+
 /* JUMBOTRON */
 .jumbotron{
    background-color: var(--bg-lightgreen);
@@ -126,6 +127,7 @@ a{
 .jumbotron img{
    width: 50%;
 }
+
 
 
 /* PORTFOLIO */
@@ -138,14 +140,22 @@ a{
    background-color: rgba(37, 238, 37, 0.516);
    top: 0;
    left: 0;
+}
+
+.portfolio ._icon{
+   font-size: 100px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.portfolio ._overlay,
+.portfolio ._icon{
    display: none !important;
 }
 
-.portfolio ._overlay ._icon{
-   font-size: 100px;
-}
-
-.portfolio ._card:hover ._overlay{
+.portfolio ._card:hover ._overlay,
+.portfolio ._card:hover ._icon{
    display: block !important;
 }
 
@@ -155,6 +165,7 @@ a{
 .about{
    background-color: var(--bg-lightgreen);
 }
+
 
 
 /* CONTACT_ME */
@@ -195,6 +206,7 @@ a{
 }
 
 
+
 /* INIZIO FOOTER */
 
 /* FOOTER_UP */
@@ -209,6 +221,7 @@ a{
    margin: 5px;
    border-radius: 50%;
 }
+
 
 
 /* FOOTER_DOWN */
@@ -234,7 +247,6 @@ a{
    .nav-item{
       justify-content: center;
    }
-
 
 
    /* AUMENTO DEL FONT-SIZE */
