@@ -1,3 +1,3 @@
 # html-css-bootstrap-freelancer
-===
-Es Boolean 8 Febbraio
+
+Utilizziamo Bootstrap per ricreare il template responsive Freelancer come da screenshots.
